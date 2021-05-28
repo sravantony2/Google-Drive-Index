@@ -26,14 +26,50 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "root",
-          "name": "Drive One",
+          "id": "0AANvSSIHhItbUk9PVA",
+          "name": "Edith TeamDrive One",
           "protect_file_link": false,
          // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
       },
       {
-          "id": "root",
-          "name": "Drive Two",
+          "id": "0ANykTRORGx-tUk9PVA",
+          "name": "Edith TeamDrive Two",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0AGGXgjFvrPspUk9PVA",
+          "name": "Edith TeamDrive Three",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0AMeLL1lXNZfUUk9PVA",
+          "name": "Edith TeamDrive Four",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0AJS-tQuW-OcNUk9PVA",
+          "name": "Edith TeamDrive Five",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0ALFpk0cy6RrMUk9PVA",
+          "name": "Edith TeamDrive Six",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0ADsvFoL9jTxrUk9PVA",
+          "name": "Edith TeamDrive Seven",
+          "protect_file_link": false,
+         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+      },
+      {
+          "id": "0AEZMby6tOrw-Uk9PVA",
+          "name": "Edith TeamDrive [Full]",
           "protect_file_link": false,
          // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
       },
