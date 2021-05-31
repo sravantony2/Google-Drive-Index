@@ -17,7 +17,7 @@ const authConfig = {
     "siteName": "NETFLIX", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
-    "refresh_token": "", // Authorize token
+    "refresh_token": "1//0e8OyMLQozPrACgYIARAAGA4SNwF-L9IrO_9HlO8X7wXZT557HUAXDGORuko007oC6SaRRG0hN9p4eM4i7Qp2D-meF7vEKMiiOVY", // Authorize token
     "service_account": false, // true if you're using Service Account instead of user account
     "service_account_json": randomserviceaccount, // don't touch this one
     "files_list_page_size": 50,
