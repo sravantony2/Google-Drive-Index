@@ -14,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Bhadoo Drive Index", // Website name
+    "siteName": "NETFLIX", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "", // Authorize token
@@ -26,16 +26,10 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "root",
-          "name": "Drive One",
+          "id": "104QC8kflN-pA2m1eY2GZjYwf2gKopIZd",
+          "name": "NETFLIX",
           "protect_file_link": false,
-         // "auth": {"username":"password"} /* Remove double slash before "auth" to activate id password protection */
-      },
-      {
-          "id": "root",
-          "name": "Drive Two",
-          "protect_file_link": false,
-         // "auth": {"username":"password", "username1":"password1"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
       },
     ]};
 
@@ -56,15 +50,15 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "slate", // switch between themes, default set to vapor, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
+    "theme": "quartz", // switch between themes, default set to vapor, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
     "version": "2.0.18-beta.1", // don't touch this one. get latest code using generator at https://generator.driveindex.ga
     // If you're using Image then set to true, If you want text then set it to false
-    "logo_image": true, // true if you're using image link in next option.
+    "logo_image": false, // true if you're using image link in next option.
     "logo_height": "", // only if logo_image is true
-    "logo_width": "100px", // only if logo_image is true
+    "logo_width": "", // only if logo_image is true
     "favicon": "https://cdn.jsdelivr.net/gh/ParveenBhadooOfficial/Google-Drive-Index@2.0.17-alpha.7/images/favicon.ico",
     // if logo is true then link otherwise just text for name
-    "logo_link_name": "https://cdn.jsdelivr.net/gh/jscdn/svg@1.0.3/bhadoo-cloud-logo-white.svg",
+    "logo_link_name": "Edith SeedBox",
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
@@ -79,10 +73,10 @@ const uiConfig = {
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
-    "copyright_year": "2050", // year of copyright, can be anything like 2015 - 2020 or just 2020
-    "company_name": "gdi.js.org", // Name next to copyright
+    "copyright_year": "2025", // year of copyright, can be anything like 2015 - 2020 or just 2020
+    "company_name": "Edith SeedBox", // Name next to copyright
     "company_link": "https://telegram.dog/Telegram", // link of copyright name
-    "credit": true, // Set this to true to give us credit
+    "credit": false, // Set this to true to give us credit
     "display_size": true, // Set this to false to hide display file size
     "display_time": false, // Set this to false to hide display modified time for folder and files
     "display_download": true, // Set this to false to hide download icon for folder and files on main index
@@ -101,7 +95,7 @@ const uiConfig = {
     "plyr_io_video_resolution": "16:9", // For reference, visit: https://github.com/sampotts/plyr#options
     "unauthorized_owner_link": "https://telegram.dog/Telegram", // Unauthorized Error Page Link to Owner
     "unauthorized_owner_email": "abuse@telegram.org", // Unauthorized Error Page Owner Email
-    "arc_code": "jfoY2h19" // arc.io Integraion Code, get yours from https://portal.arc.io
+    "arc_code": "Kq6GHMtw" // arc.io Integraion Code, get yours from https://portal.arc.io
 };
 
 
