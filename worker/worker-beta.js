@@ -14,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "NETFLIX", // Website name
+    "siteName": "Infyplex", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "1//0e8OyMLQozPrACgYIARAAGA4SNwF-L9IrO_9HlO8X7wXZT557HUAXDGORuko007oC6SaRRG0hN9p4eM4i7Qp2D-meF7vEKMiiOVY", // Authorize token
@@ -26,10 +26,10 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "104QC8kflN-pA2m1eY2GZjYwf2gKopIZd",
-          "name": "NETFLIX",
+          "id": "1KuV1XII5vXCdzE-89-ECN6SeW_vXwcM8",
+          "name": "Infyplex",
           "protect_file_link": false,
-          "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
+         // "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
       },
     ]};
 
