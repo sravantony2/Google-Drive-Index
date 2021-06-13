@@ -14,7 +14,7 @@ const serviceaccounts = [
 const randomserviceaccount = serviceaccounts[Math.floor(Math.random()*serviceaccounts.length)];
 
 const authConfig = {
-    "siteName": "Infyplex", // Website name
+    "siteName": "Edith Collections", // Website name
     "client_id": "746239575955-oao9hkv614p8glrqpvuh5i8mqfoq145b.apps.googleusercontent.com", // Client id from Google Cloud Console
     "client_secret": "u5a1CSY5pNjdD2tGTU93TTnI", // Client Secret from Google Cloud Console
     "refresh_token": "1//0e8OyMLQozPrACgYIARAAGA4SNwF-L9IrO_9HlO8X7wXZT557HUAXDGORuko007oC6SaRRG0hN9p4eM4i7Qp2D-meF7vEKMiiOVY", // Authorize token
@@ -26,10 +26,10 @@ const authConfig = {
     "enable_password_file_verify": true, // support for .password file
     "roots":[
       {
-          "id": "1KuV1XII5vXCdzE-89-ECN6SeW_vXwcM8",
-          "name": "Infyplex",
+          "id": "0AHrf7fEiqG4aUk9PVA",
+          "name": "Edith Collections",
           "protect_file_link": false,
-         // "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
+          "auth": {"edith":"jarvis"} /* Remove double slash before "auth" to activate id password protection */
       },
     ]};
 
@@ -50,7 +50,7 @@ const authConfig = {
 ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝░╚═════╝░╚══════╝╚═════╝░*/
 
 const uiConfig = {
-    "theme": "slate", // switch between themes, default set to vapor, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
+    "theme": "Darkly", // switch between themes, default set to vapor, select from https://github.com/ParveenBhadooOfficial/Google-Drive-Index#themes
     "version": "2.0.18-beta.1", // don't touch this one. get latest code using generator at https://generator.driveindex.ga
     // If you're using Image then set to true, If you want text then set it to false
     "logo_image": false, // true if you're using image link in next option.
