@@ -62,14 +62,14 @@ const uiConfig = {
     "fixed_header": true, // If you want the footer to be flexible or fixed.
     "header_padding": "60", // Value 60 for fixed header, Value 20 for flexible header. Required to be changed accordingly in some themes.
     "fixed_footer": false, // If you want the footer to be flexible or fixed.
-    "header_style_class": "navbar-dark bg-primary", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
-    "footer_style_class": "bg-primary", // bg-primary || bg-dark || bg-light
+    "header_style_class": "navbar-dark bg-yellow", // navbar-dark bg-primary || navbar-dark bg-dark || navbar-light bg-light
+    "footer_style_class": "bg-yellow", // bg-primary || bg-dark || bg-light
     "css_a_tag_color": "white", // Color Name or Hex Code eg. #ffffff
     "css_p_tag_color": "white", // Color Name or Hex Code eg. #ffffff
     "folder_text_color": "white", // Color Name or Hex Code eg. #ffffff
     "loading_spinner_class": "text-light", // https://getbootstrap.com/docs/5.0/components/spinners/#colors
     "search_button_class": "btn-outline-success", // https://getbootstrap.com/docs/5.0/components/buttons/#examples
-    "path_nav_alert_class": "alert alert-primary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
+    "path_nav_alert_class": "alert alert-yellow", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_view_alert_class": "alert alert-danger", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "file_count_alert_class": "alert alert-secondary", // https://getbootstrap.com/docs/4.0/components/alerts/#examples
     "contact_link": "https://telegram.dog/Telegram", // Link to Contact Button on Menu
